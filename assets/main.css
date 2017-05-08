@@ -58,8 +58,15 @@ blockquote p cite {
   text-align: right;
 }
 
-code {
+p code {
    font-size: 15px;
+}
+
+pre code {
+   font-size: 14px;
+}
+
+code {
    background-color: #efefef;
    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
