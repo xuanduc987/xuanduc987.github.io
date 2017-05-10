@@ -10,12 +10,35 @@ body {
                 sans-serif;
     font-size: 16px;
     font-style: normal;
-    margin: 2em auto;
+    margin: 0 auto;
     max-width: 45em;
 }
 
 .wrapper {
    padding: 0 5%;
+}
+
+.site-header {
+    text-align: right;
+    margin: 1em 0 4em;
+}
+
+.site-header .site-title {
+    float: left;
+    text-align: left;
+    margin-top: 30px;
+
+    font-size: 1.2em;
+    font-weight: bold;
+
+    color: #000;
+    text-decoration: none;
+}
+
+.site-header .bio-photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
 }
 
 .post-header {
@@ -46,12 +69,12 @@ h1,h2,h3,h4,h5,h6 {
    margin: 1.7em 0 1.1em;
 }
 
-a {
+.post-content a {
     color: #4078c0;
     text-decoration: none;
 }
 
-a:hover {
+.post-content a:hover {
     text-decoration: underline;
 }
 
