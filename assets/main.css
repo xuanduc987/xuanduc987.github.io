@@ -47,6 +47,14 @@ body {
     font-size: 0.9em;
 }
 
+.post-list p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.post-link {
+}
+
 .post-header {
     margin: 3em 0;
 }
