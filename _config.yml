@@ -2,10 +2,13 @@ title: Duc NX's blog
 email: me@ducnx.com
 description: > # this means to ignore newlines until "baseurl:"
   My personal blog, about things I learn.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ducnx.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xuanduc987
 github_username:  xuanduc987
+google_analytics: UA-38616867-2
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ducnx.com" # the base hostname & protocol for your site, e.g. http://example.com
+enforce_ssl: ducnx.com
 
 # Build settings
 permalink:   /:categories/:title/
