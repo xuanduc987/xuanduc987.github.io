@@ -57,16 +57,16 @@ body {
 
 p {
    line-height: 1.5em;
-   margin: 1.4em 0;
+   margin: 1.2em 0;
 }
 
 li {
-   line-height: 1.5em;
+   line-height: 1.3em;
    margin: 0.8em 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
-   margin: 1.7em 0 1.1em;
+   margin: 1.5em 0 1em;
 }
 
 .post-content a {
