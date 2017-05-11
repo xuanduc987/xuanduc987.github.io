@@ -11,7 +11,7 @@ body {
     font-size: 16px;
     font-style: normal;
     margin: 0 auto;
-    max-width: 45em;
+    max-width: 46em;
 }
 
 .wrapper {
@@ -41,12 +41,18 @@ body {
     border-radius: 50%;
 }
 
+.site-footer {
+    text-align: right;
+    margin: 4em 0 1em;
+    font-size: 0.9em;
+}
+
 .post-header {
     margin: 3em 0;
 }
 
 .post-title {
-    margin: 0 0 0.5em;
+    margin: 0 0 0.4em;
 }
 
 .post-meta {
@@ -69,12 +75,12 @@ h1,h2,h3,h4,h5,h6 {
    margin: 1.5em 0 1em;
 }
 
-.post-content a {
+a {
     color: #4078c0;
     text-decoration: none;
 }
 
-.post-content a:hover {
+a:hover {
     text-decoration: underline;
 }
 

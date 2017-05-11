@@ -2,32 +2,15 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <hr/>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
+    <a href="https://github.com/{{ site.github_username }}">Github</a>
+    &nbsp; &nbsp; &nbsp;
+    <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+    &nbsp; &nbsp; &nbsp;
+    <a href="mailto:{{ site.email }}">Mail</a>
+    &nbsp; &nbsp; &nbsp;
+    <a href="{{ "/feed.xml" | relative }}">RSS</a>
   </div>
 
 </footer>
